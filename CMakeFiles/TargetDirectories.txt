@@ -1,0 +1,3 @@
+/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/CMakeFiles/BlueMarble.dir
+/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/CMakeFiles/edit_cache.dir
+/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/CMakeFiles/rebuild_cache.dir
