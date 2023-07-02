@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/build",
+  "command": "/usr/bin/clang++  -I/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/librays/stb -I/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/librays/glm -g -o CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o -c /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_12.cpp",
+  "file": "/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_12.cpp",
+  "output": "CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o"
+}
+]
