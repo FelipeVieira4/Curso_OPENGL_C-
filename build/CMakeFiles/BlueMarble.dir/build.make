@@ -69,28 +69,28 @@ include CMakeFiles/BlueMarble.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BlueMarble.dir/flags.make
 
-CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o: CMakeFiles/BlueMarble.dir/flags.make
-CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o: /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_12.cpp
-CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o: CMakeFiles/BlueMarble.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o -MF CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o.d -o CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o -c /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_12.cpp
+CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o: CMakeFiles/BlueMarble.dir/flags.make
+CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o: /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_14.cpp
+CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o: CMakeFiles/BlueMarble.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o -MF CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o.d -o CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o -c /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_14.cpp
 
-CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_12.cpp > CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.i
+CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_14.cpp > CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.i
 
-CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_12.cpp -o CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.s
+CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felipevieira/Documents/projects/c++/Curso_OPENGL_C/sessao_2/aula_14.cpp -o CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.s
 
 # Object files for target BlueMarble
 BlueMarble_OBJECTS = \
-"CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o"
+"CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o"
 
 # External object files for target BlueMarble
 BlueMarble_EXTERNAL_OBJECTS =
 
-BlueMarble: CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o
+BlueMarble: CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o
 BlueMarble: CMakeFiles/BlueMarble.dir/build.make
 BlueMarble: /usr/lib64/libGLEW.so
 BlueMarble: /usr/lib64/libglfw.so.3.3

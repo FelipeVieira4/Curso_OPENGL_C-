@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "BlueMarble"
   "BlueMarble.pdb"
-  "CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o"
-  "CMakeFiles/BlueMarble.dir/sessao_2/aula_12.cpp.o.d"
+  "CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o"
+  "CMakeFiles/BlueMarble.dir/sessao_2/aula_14.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
