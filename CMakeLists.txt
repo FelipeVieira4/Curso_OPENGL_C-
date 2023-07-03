@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 
 project(BlueMarble)
 
-add_executable(BlueMarble sessao_2/aula_12.cpp)
+add_executable(BlueMarble sessao_2/aula_14.cpp)
 
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)

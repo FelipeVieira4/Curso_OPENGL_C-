@@ -13,7 +13,7 @@ const int height = 480;
 int main(void){
 
     assert(glfwInit()); //Inicializar o GLFW
-                                                                    
+                                                                 
     GLFWwindow* window = glfwCreateWindow(widht,height,"BlueMarble",nullptr,nullptr);//Criar a janela
     assert(window);//Checar se o ponteiro da janela não é nulo
 
@@ -22,7 +22,7 @@ int main(void){
 
     //Inicializar o GLEW
     if(glewInit()!= GLEW_OK){ 
-        std::cout<<"ERRO GLEW"<<std::endl;
+        std::cout<<"ERRO LOAD GLEW"<<std::endl;
         return -1;
     }
 
