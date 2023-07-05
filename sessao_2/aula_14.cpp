@@ -13,10 +13,19 @@ const int height = 600;
 
 int main(void){
 
-    assert(glfwInit()); //Inicializar o GLFW
-                                                                 
+    //assert(glfwInit()); //Inicializar o GLFW
+    if(!glfwInit()){
+        std::cout<<"ERRO INCIALIZAR GLFW"<<std::endl;
+        return 1;//Sair com erro
+    }
+
+
     GLFWwindow* window = glfwCreateWindow(widht,height,"BlueMarble",nullptr,nullptr);//Criar a janela
-    assert(window);//Checar se o ponteiro da janela não é nulo
+    //assert(window);//Checar se o ponteiro da janela não é nulo
+    if(!window){
+        std::cout<<"ERRO AO CRIAR O CONTEXTO GLFW(window null)"<<std::endl;
+        return -1;
+    }
 
     glfwMakeContextCurrent(window);
 	glfwSwapInterval(1);
@@ -27,8 +36,6 @@ int main(void){
         return -1;
     }
 
-    //Definir cor de fundo
-    glClearColor(1.0f,0.0f,0.0f,0.0f);
 
 
     //Definir array do tipo "vec3" e com número de elementos 3
@@ -40,7 +47,7 @@ int main(void){
 
     //formato primitivo int unsigned
     GLuint VertexBuffer; // ponteiro
-
+    std::cout<<VertexBuffer<<std::endl;
 
     //Gerar um buffer de vertices
     glGenBuffers(1,&VertexBuffer);
@@ -52,6 +59,11 @@ int main(void){
     //Copiar os dados do "triangulo" para VertexBuffer
     glBufferData(GL_ARRAY_BUFFER,sizeof(triangulo),triangulo.data(),GL_STATIC_DRAW);
 
+
+
+    //Definir cor de fundo
+    glClearColor(0.0f,0.5f,0.0f,0.0f);
+
     //Loop eventos
     while(!glfwWindowShouldClose(window)){
 
@@ -59,7 +71,7 @@ int main(void){
         glClear(GL_COLOR_BUFFER_BIT);
 
 
-        glEnableVertexAttribArray(0);
+        glEnableVertexAttribArray(0);//Habilitar o uso de vertex a partir da posição 0 ou seja ID
 
         //Colocar o VertexBuffer como o buffer ativo no momento
         glBindBuffer(GL_ARRAY_BUFFER,VertexBuffer);
@@ -74,10 +86,9 @@ int main(void){
 
 
 
-        glDisableVertexAttribArray(0);
+        glDisableVertexAttribArray(0);//Disabilitar "generic vertex attribute arrays"
 
         glfwPollEvents();//Processa todos os eventos da fila do GLFW (mouse,gamepad,teclado)
-
 
         glfwSwapBuffers(window);//envia o conteúdo do frame buffer para ser desenhado na tela
     }
